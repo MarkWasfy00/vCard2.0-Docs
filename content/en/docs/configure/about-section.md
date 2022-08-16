@@ -35,7 +35,7 @@ Add or remove text as needed
 
 ### Edit Cards
 
-get svg from [`Here`](https://ionic.io/ionicons)
+get svg from [`Here`](https://fonts.google.com/icons)
 
 - search for your desired svg 
 - put it in public/images

@@ -33,49 +33,71 @@ it should be at least 1 timeline to work without any errors
 "turnOnResume":true, <-- switch between true and false to turn resume section off
     "timelines": [
         {
-            "timelineClass":"analytics-outline",
+            "timelineClass":"book-outline", <-- get icon name and put it here
             "timelineTitle":"Education",
             "timelineItems": [
                 {
-                    "timelineItemTitle":"Bachelor of Science in Elementary Education",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"put your description"
+                    "timelineItemTitle":"A Levels",
+                    "timelineItemDate":"2005 — 2009",
+                    "timelineItemDescription":[
+                        "Yorkshire College",
+                        "more items", <-- add more if needed
+                        "more items"
+                    ]
                 },
                 {
-                    "timelineItemTitle":"Rahway High school",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"put your description"
+                    "timelineItemTitle":"GCSEs",
+                    "timelineItemDate":"2009 — 2010",
+                    "timelineItemDescription":[
+                        "Conventry School"
+                    ]
                 },
                 {
-                    "timelineItemTitle":"Cranford High school",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"put your description"
+                    "timelineItemTitle":"BSc Product Design",
+                    "timelineItemDate":"2010 — 2013",
+                    "timelineItemDescription":[
+                        "Brunel University"
+                    ]
                 }
             ]
         },
         {
-            "timelineClass":"analytics-outline",
-            "timelineTitle":"Experince",
+            "timelineClass":"finger-print-outline",
+            "timelineTitle":"Experience",
             "timelineItems": [
                 {
-                    "timelineItemTitle":"Google",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"test"
+                    "timelineItemTitle":"Arts and Entertainment Reporter",
+                    "timelineItemDate":"Valley Oak Times, 2018-Present",
+                    "timelineItemDescription":[
+                        "Cover a wide variety of arts and entertainment stories as assigned ",
+                        "Adhere to all story deadlines",
+                        "Provide quality coverage in all stories",
+                        "Proofread every story for grammar and spelling",
+                        "Adhere to the newspaper style guide"
+                            
+                    ]
                 },
                 {
-                    "timelineItemTitle":"Apple",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"test"
+                    "timelineItemTitle":"Entertainment Reporter",
+                    "timelineItemDate":"San Jose Star Journal, 2013-2018",
+                    "timelineItemDescription":[
+                        "Covered various entertainment and celebrity news stories",
+                        "Wrote headlines and photo captions for all stories",
+                        "Edited stories for spelling and grammar before submitting",
+                        "Coordinated coverage with other arts section reporters"
+                    ]
                 },
                 {
-                    "timelineItemTitle":"Netflix",
-                    "timelineItemDate":"2020 — 2024",
-                    "timelineItemDescription":"test"
+                    "timelineItemTitle":"Freelance Reporter",
+                    "timelineItemDate":"The Denver Times, 2012-2013",
+                    "timelineItemDescription":[
+                        "Wrote articles for the arts section of the newspaper",
+                        "Proofread all stories for spelling and grammar"
+                    ]
                 }
             ]
         }
     ],
-
 ```
 
 ### Edit Skills
