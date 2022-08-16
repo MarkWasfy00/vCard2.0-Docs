@@ -3,13 +3,13 @@
 $white:    #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
+$gray-300: rgb(255, 255, 255);
+$gray-400: hsl(0, 0%, 84%);
+// $gray-500: #73ff00;
+// $gray-600: #8c9417;
+$gray-700: hsl(0, 0%, 84%);
+$gray-800: hsl(0, 0%, 24%);
+$gray-900: hsl(240, 2%, 12%);
 $black:    #000;
 
 $yellow:   #ffe000;
@@ -17,12 +17,12 @@ $black:    #1d2d35;
 $beige:    #fbf7f0;
 
 // $red:      #e55235;
-$purple:   #5d2f86;
+$purple:   hsl(45, 100%, 72%);
 $brown:    #aa9c84;
 
-$blue-300: #8ed6fb;
+$blue-300: hsl(45, 100%, 72%);
 $pink-100: #fcfaff;
-$pink-500: #d32e9d;
+$pink-500: #d3622ebb;
 
 $primary: $purple;
 
@@ -36,7 +36,7 @@ $color-btn-text: $white;
 
 $enable-caret:                true;
 $enable-rounded:              true;
-$enable-shadows:              false;
+$enable-shadows:              true;
 $enable-gradients:            false;
 $enable-transitions:          true;
 $enable-reduced-motion:       true;

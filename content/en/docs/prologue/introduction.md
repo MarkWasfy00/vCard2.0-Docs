@@ -1,7 +1,7 @@
 ---
-title: "Introduction"
+title: "Installation"
 description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+lead: "Dokswor building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,46 +13,46 @@ weight: 100
 toc: true
 ---
 
-## Get started
+### Install Node & Npm
+{{< alert icon="👉" text="Make sure you install Node version 8^ or higher" />}}
 
-There are two main ways to get started with Doks:
+you need to check first if you have node installed on your system
 
-### Tutorial
+```bash
+node -v
+```
+if you get a version number thats means you got node on your machine and npm get automatically installed with node .
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+but if you get an error you should follow this video to keep up 
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+{{< youtube 3F5IaPqj7ds >}}
 
-### Quick Start
+---
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
+### Run vCard portfolio
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+go ahead and download the zip file from envato and extract it in a folder
 
-## Go further
+simply open the folder in your favorite code editor we recommend [`Visual Studio Code`](https://code.visualstudio.com) code or [`Atom`](https://atom.io) , if you dont want to use any code editors simply write cmd in your folder directory
 
-Recipes, Reference Guides, Extensions, and Showcase.
+![Image](images/open-cmd.png "Open cmd")
 
-### Recipes
+then -> write in your cmd or code editor terminal
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+```bash
+npm i
+```
 
-### Reference Guides
+wait for it to finish downloading then run the site by writing
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+```bash
+npm run dev
+```
 
-### Extensions
+you will get this result but if you dont just make sure you have made all the steps correct
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+![Image](images/open-vcard.png "Open vCard")
 
-### Showcase
 
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+{{< alert icon="🎉" text="go ahead and open the local link in your browser and walaa here you have it !" />}}
+![Image](images/celebrating-cat.jpg "CelebratingCat")
